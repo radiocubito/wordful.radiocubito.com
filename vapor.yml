@@ -1,0 +1,16 @@
+id: 19116
+name: contentful-radiocubito-com
+environments:
+    production:
+        database: radiocubito-com
+        storage: contentful-radiocubito-com-production
+        domain: contentful.radiocubito.com
+        memory: 1024
+        cli-memory: 512
+        runtime: 'php-7.4:al2'
+        build:
+            - 'COMPOSER_MIRROR_PATH_REPOS=1 composer install --no-dev'
+            - 'php artisan event:cache'
+            - 'npm ci && npm run prod && rm -rf node_modules'
+        deploy:
+            - 'php artisan migrate --force'
