@@ -21,7 +21,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::redirect('/docs', '/docs/introduction');
+Route::redirect('/docs', '/docs/introduction')->name('docs.index');
 
 Route::get('/docs/{documentation:slug}', function (Documentation $documentation) {
     if (! $documentation->markdownExists()) {
