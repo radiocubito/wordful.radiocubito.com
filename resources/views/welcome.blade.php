@@ -3,7 +3,7 @@
         <header class="bg-gray-50">
             <div class="p-8 max-w-3xl mx-auto items-center flex" style="min-height: 60vh;">
                 <div class=" overflow-hidden">
-                    <h1 class="text-4xl lg:text-6xl font-bold">Wordful</h1>
+                    <h1 class="text-4xl lg:text-6xl font-bold">RadioCúbito Wordful</h1>
                     <h2 class="mt-5 text-2xl lg:text-4xl font-semibold text-gray-600 leading-snug">
                         Just a simple blogging platform. <br> For Laravel.
                     </h2>

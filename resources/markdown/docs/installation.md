@@ -7,13 +7,13 @@
 
 ## Installation
 
-You may use Composer to install Wordful into your new or existent Laravel project:
+You may use Composer to install RadioCúbito Wordful into your new or existent Laravel project:
 
 ```bash
 composer require radiocubito/laravel-wordful
 ```
 
-After installing Wordful, you may publish its resources using the `wordful:install` Artisan command:
+After installing RadioCúbito Wordful, you may publish its resources using the `wordful:install` Artisan command:
 
 ```bash
 php artisan wordful:install
@@ -21,9 +21,9 @@ php artisan wordful:install
 
 ### Dashboard Authorization
 
-Wordful exposes a dashboard at `/wordful`. By default, you will only be able to access this dashboard in the local environment. To use it in another environment, you need to register a gate check.
+RadioCúbito Wordful exposes a dashboard at `/wordful`. By default, you will only be able to access this dashboard in the local environment. To use it in another environment, you need to register a gate check.
 
-You can determine which users of your application are allowed to view the Wordful dashboard by defining a gate check called `viewWordful` within your app/Providers/WordfulServiceProvider.php file:
+You can determine which users of your application are allowed to view the RadioCúbito Wordful dashboard by defining a gate check called `viewWordful` within your app/Providers/WordfulServiceProvider.php file:
 
 ```php
 // app/Providers/WordfulServiceProvider.php
@@ -40,11 +40,11 @@ public function boot()
 
 ### Visit the Dashboard
 
-After performing all these steps, you should be able to visit the Wordful Dashboard at `/wordful`.
+After performing all these steps, you should be able to visit the RadioCúbito Wordful Dashboard at `/wordful`.
 
 ## Upgrading
 
-When upgrading to a new version of Wordful, you should re-publish Wordful's assets:
+When upgrading to a new version of RadioCúbito Wordful, you should re-publish RadioCúbito Wordful's assets:
 
 ```bash
 php artisan wordful:publish

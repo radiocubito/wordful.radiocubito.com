@@ -1,12 +1,12 @@
-# Wordful Docs
+# RadioCúbito Wordful Docs
 
 ⚡ [Get Started](/docs/installation)
 
-🏠 [Visit Wordful](/)
+🏠 [Visit RadioCúbito Wordful](/)
 
 ## Changelog
 
-Weekly update with features and improvements made to Wordful.
+Weekly update with features and improvements made to RadioCúbito Wordful.
 
 📝 [View Changelog](/)
 
