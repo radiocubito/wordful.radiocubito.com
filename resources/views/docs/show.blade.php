@@ -1,6 +1,6 @@
 <x-layout>
     <div class="max-w-6xl mx-auto px-4 lg:px-6 lg:grid lg:grid-cols-4 lg:gap-10 min-h-screen">
-        <nav class="border-b pb-6 lg:border-r lg:pb-0">
+        <nav class="border-b pb-6 lg:border-r lg:border-b-0 lg:pb-0">
             <div class="px-3 py-6 font-bold">
                 <a href="{{ route('docs.index') }}">Wordful</a>
             </div>
