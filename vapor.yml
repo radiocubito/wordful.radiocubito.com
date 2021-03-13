@@ -1,10 +1,10 @@
-id: 19116
-name: contentful-radiocubito-com
+id: 19153
+name: wordful-radiocubito-com
 environments:
     production:
         database: radiocubito-com
-        storage: contentful-radiocubito-com-production
-        domain: contentful.radiocubito.com
+        storage: wordful-radiocubito-com-production
+        domain: wordful.radiocubito.com
         memory: 1024
         cli-memory: 512
         runtime: 'php-7.4:al2'

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f62a17fb9f5579af8271f5b7ffaf5b21",
+    "content-hash": "67031427b815b892f8fcd30a14bd7c5d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,16 +64,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.173.27",
+            "version": "3.173.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "80d9e123864834779bf532c1fe3b5923483df835"
+                "reference": "593baa5930896bb443c437032daf4016e1e3878d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/80d9e123864834779bf532c1fe3b5923483df835",
-                "reference": "80d9e123864834779bf532c1fe3b5923483df835",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/593baa5930896bb443c437032daf4016e1e3878d",
+                "reference": "593baa5930896bb443c437032daf4016e1e3878d",
                 "shasum": ""
             },
             "require": {
@@ -148,9 +148,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.27"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.173.28"
             },
-            "time": "2021-03-11T19:14:41+00:00"
+            "time": "2021-03-12T19:29:55+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -3732,17 +3732,17 @@
             "time": "2021-01-18T15:53:43+00:00"
         },
         {
-            "name": "radiocubito/laravel-contentful",
-            "version": "v0.4.0",
+            "name": "radiocubito/laravel-wordful",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/radiocubito/laravel-contentful.git",
-                "reference": "45e721565ef9063cb4548a0903f930d824f0e899"
+                "url": "https://github.com/radiocubito/laravel-wordful.git",
+                "reference": "3f29a268212bef478b078d9f16a482948db47f20"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/radiocubito/laravel-contentful/zipball/45e721565ef9063cb4548a0903f930d824f0e899",
-                "reference": "45e721565ef9063cb4548a0903f930d824f0e899",
+                "url": "https://api.github.com/repos/radiocubito/laravel-wordful/zipball/3f29a268212bef478b078d9f16a482948db47f20",
+                "reference": "3f29a268212bef478b078d9f16a482948db47f20",
                 "shasum": ""
             },
             "require": {
@@ -3761,17 +3761,17 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Radiocubito\\Contentful\\ContentfulServiceProvider"
+                        "Radiocubito\\Wordful\\WordfulServiceProvider"
                     ],
                     "aliases": {
-                        "Contentful": "Radiocubito\\Contentful\\ContentfulFacade"
+                        "Wordful": "Radiocubito\\Wordful\\WordfulFacade"
                     }
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Radiocubito\\Contentful\\": "src",
-                    "Radiocubito\\Contentful\\Database\\Factories\\": "database/factories"
+                    "Radiocubito\\Wordful\\": "src",
+                    "Radiocubito\\Wordful\\Database\\Factories\\": "database/factories"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3785,15 +3785,15 @@
                     "role": "Developer"
                 }
             ],
-            "description": "Contentful – Just a simple blog package for Laravel.",
-            "homepage": "https://github.com/radiocubito/laravel-contentful",
+            "description": "Wordful – Just a simple blog package for Laravel.",
+            "homepage": "https://github.com/radiocubito/laravel-wordful",
             "keywords": [
-                "laravel-contentful",
+                "laravel-wordful",
                 "radiocubito"
             ],
             "support": {
-                "issues": "https://github.com/radiocubito/laravel-contentful/issues",
-                "source": "https://github.com/radiocubito/laravel-contentful/tree/v0.4.0"
+                "issues": "https://github.com/radiocubito/laravel-wordful/issues",
+                "source": "https://github.com/radiocubito/laravel-wordful/tree/v0.5.0"
             },
             "funding": [
                 {
@@ -3801,7 +3801,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-12T02:34:21+00:00"
+            "time": "2021-03-13T18:13:27+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -4126,16 +4126,16 @@
         },
         {
             "name": "spatie/laravel-package-tools",
-            "version": "1.5.0",
+            "version": "1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-package-tools.git",
-                "reference": "faabcdf71fb12be35dbd2376d4f10e12ed2551ab"
+                "reference": "c190a294db3a10a14e27db67cd286c3ce10c8277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/faabcdf71fb12be35dbd2376d4f10e12ed2551ab",
-                "reference": "faabcdf71fb12be35dbd2376d4f10e12ed2551ab",
+                "url": "https://api.github.com/repos/spatie/laravel-package-tools/zipball/c190a294db3a10a14e27db67cd286c3ce10c8277",
+                "reference": "c190a294db3a10a14e27db67cd286c3ce10c8277",
                 "shasum": ""
             },
             "require": {
@@ -4174,7 +4174,7 @@
             ],
             "support": {
                 "issues": "https://github.com/spatie/laravel-package-tools/issues",
-                "source": "https://github.com/spatie/laravel-package-tools/tree/1.5.0"
+                "source": "https://github.com/spatie/laravel-package-tools/tree/1.6.0"
             },
             "funding": [
                 {
@@ -4182,7 +4182,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-03-10T11:35:17+00:00"
+            "time": "2021-03-12T12:08:43+00:00"
         },
         {
             "name": "spatie/regex",

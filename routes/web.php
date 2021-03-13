@@ -2,7 +2,7 @@
 
 use App\Models\Documentation;
 use Illuminate\Support\Facades\Route;
-use Radiocubito\Contentful\Models\Post;
+use Radiocubito\Wordful\Models\Post;
 
 /*
 |--------------------------------------------------------------------------

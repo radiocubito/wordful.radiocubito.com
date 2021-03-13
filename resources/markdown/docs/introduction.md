@@ -1,12 +1,12 @@
-# Contentful Docs
+# Wordful Docs
 
 ⚡ [Get Started](/docs/installation)
 
-🏠 [Visit Contentful](/)
+🏠 [Visit Wordful](/)
 
 ## Changelog
 
-Weekly update with features and improvements made to Contentful.
+Weekly update with features and improvements made to Wordful.
 
 📝 [View Changelog](/)
 
@@ -14,4 +14,4 @@ Weekly update with features and improvements made to Contentful.
 
 Feel free to create an issue on GitHub, we'll try to address it as soon as possible.
 
-✍️ [Create Issue](https://github.com/radiocubito/laravel-contentful/issues)
+✍️ [Create Issue](https://github.com/radiocubito/laravel-wordful/issues)
