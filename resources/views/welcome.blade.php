@@ -1,5 +1,5 @@
 <x-layout>
-    <main>
+    <main class="pb-16">
         <header class="bg-gray-50">
             <div class="p-8 max-w-3xl mx-auto items-center flex" style="min-height: 60vh;">
                 <div class=" overflow-hidden">

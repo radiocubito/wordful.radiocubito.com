@@ -1,5 +1,6 @@
 <?php
 
+use App\Models\Documentation;
 use Illuminate\Support\Facades\Route;
 use Radiocubito\Contentful\Models\Post;
 
@@ -19,6 +20,19 @@ Route::get('/', function () {
         'posts' => Post::published()->ofType('post')->orderBy('published_at', 'desc')->get(),
     ]);
 });
+
+Route::redirect('/docs', '/docs/introduction');
+
+Route::get('/docs/{documentation:slug}', function (Documentation $documentation) {
+    if (! $documentation->markdownExists()) {
+        abort(404);
+    }
+
+    return view('docs.show', [
+        'gettingStartedDocs' => Documentation::where('section', 'getting-started')->get(),
+        'doc' => $documentation,
+    ]);
+})->name('docs.show');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

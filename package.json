@@ -19,9 +19,8 @@
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
         "postcss-import": "^12.0.1",
-        "tailwindcss": "^2.0.1"
-    },
-    "dependencies": {
+        "tailwindcss": "^2.0.1",
+        "highlight.js": "^10.4.1",
         "@ryangjchandler/alpine-clipboard": "^1.0.0"
     }
 }
