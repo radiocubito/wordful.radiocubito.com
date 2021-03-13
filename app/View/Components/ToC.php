@@ -7,7 +7,7 @@ use Illuminate\View\Component;
 use Illuminate\Support\Collection;
 use Illuminate\Contracts\View\View;
 
-class ToC extends Component
+class Toc extends Component
 {
     /** @var string */
     public $url;

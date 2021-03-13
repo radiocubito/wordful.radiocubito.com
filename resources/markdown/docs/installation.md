@@ -13,14 +13,18 @@ You may use Composer to install Contentful into your new or existent Laravel pro
 composer require radiocubito/laravel-contentful
 ```
 
-### Publish the migrations and run the migration
+### Migrations
+
+Publish the migrations and run the migration:
 
 ```bash
 php artisan vendor:publish --provider="Radiocubito\Contentful\ContentfulServiceProvider" --tag="contentful-migrations"
 php artisan migrate
 ```
 
-### Publish the assets
+### Dashboard Assets
+
+Publish the dashboard assets.
 
 ```bash
 php artisan vendor:publish --provider="Radiocubito\Contentful\ContentfulServiceProvider" --tag="contentful-assets"
@@ -28,7 +32,7 @@ php artisan vendor:publish --provider="Radiocubito\Contentful\ContentfulServiceP
 
 ### Dashboard Authorization
 
-Contentful exposes a dashboard at /contentful. By default, you will only be able to access this dashboard in the local environment. To use it in another environment, you need to register a gate check.
+Contentful exposes a dashboard at `/contentful`. By default, you will only be able to access this dashboard in the local environment. To use it in another environment, you need to register a gate check.
 
 You can determine which users of your application are allowed to view the Contentful dashboard by defining a gate check called `viewContentful`.
 
