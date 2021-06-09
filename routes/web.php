@@ -16,10 +16,14 @@ use Radiocubito\Wordful\Models\Post;
 */
 
 Route::get('/', function () {
-    return view('welcome', [
+    return view('welcome');
+});
+
+Route::get('/changelog', function () {
+    return view('changelog', [
         'posts' => Post::published()->ofType('post')->orderBy('published_at', 'desc')->get(),
     ]);
-});
+})->name('changelog.index');
 
 Route::redirect('/docs', '/docs/introduction')->name('docs.index');
 
